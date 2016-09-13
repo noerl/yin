@@ -1,0 +1,12 @@
+{application, yin,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { yin_app, []}},
+  {env, []}
+ ]}.
